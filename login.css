@@ -1,0 +1,95 @@
+/* Login Page */
+
+#login {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+
+
+}
+
+.form {
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   padding: 10px 20px;
+   transition: transform 0.2s;
+   width: 60%;
+   text-align: center;
+
+
+}
+
+h2 {
+   color: rgba(163, 159, 144, 0.749);
+}
+
+label {
+   display: block;
+   font-size: 17px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   text-align: left;
+   color: #555;
+   font-weight: bold;
+}
+
+input {
+
+   display: block;
+   font-size: 15px;
+   width: 100%;
+   margin-bottom: 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+#subBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: larger;
+   width: 50%;
+   padding: 6px;
+
+   /* margin: 0 20px; */
+   margin: 5% 25%;
+   color: white;
+   background-color: green;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+@media (min-width: 455px) {
+   .form {
+      width: 30%;
+      max-width: 600px;
+   }
+}
+
+@media (min-width: 600px) {
+   .form {
+      width: 50%;
+      max-width: 600px;
+   }
+}
+
+@media (min-width: 768px) {
+   .form {
+      width: 60%;
+      max-width: 700px;
+   }
+}
+
+@media (min-width: 992px) {
+   .form {
+      width: 60%;
+      max-width: 800px;
+   }
+}
